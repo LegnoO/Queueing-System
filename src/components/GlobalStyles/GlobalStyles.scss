@@ -1,0 +1,110 @@
+/** @format */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700&display=swap');
+@import './grid';
+
+:root {
+  --text-error: #e73f3f;
+  --text-success: #35c75a;
+  --text-fu: #7e7d88;
+  --text-pending: #4277ff;
+}
+
+/* ------------------ Reset ------------------ */
+
+html {
+  scroll-behavior: smooth;
+  // font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito';
+}
+
+body {
+  line-height: 1.5;
+  text-rendering: optimizeSpeed;
+}
+
+button,
+[tabindex] {
+  border: none;
+  outline: none;
+}
+
+a[href] {
+  text-decoration: none;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+}
+
+img {
+  border-style: none;
+}
+
+main {
+  display: block;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+  border-width: 0px;
+  border: none;
+}
+
+/* ------------------ Text ------------------ */
+.text-start {
+  text-align: start;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-end {
+  text-align: end;
+}
+.text-underline {
+  color: #4277ff !important;
+  text-decoration: underline !important;
+}
+/* ------------------  ------------------ */
+.pointer {
+  cursor: pointer;
+}
+
+// ::-webkit-scrollbar {
+//   width: 1px;
+// }
+
+// .MuiPaper-root::-webkit-scrollbar-thumb {
+//   background-color: red;
+// }
+#menu-SERVICE .MuiPaper-root {
+  height: 200px;
+  overflow-y: scroll;
+}

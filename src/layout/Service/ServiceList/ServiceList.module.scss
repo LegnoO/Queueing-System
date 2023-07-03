@@ -1,0 +1,28 @@
+@import '../../../components/GlobalStyles/base.scss';
+
+.wrapper {
+  .content {
+    height: 600px;
+    .form-control {
+      gap: 24px;
+      .form-field:last-child {
+        margin-left: auto;
+      }
+    }
+    .list-container {
+      position: relative;
+      .list-table {
+        tbody {
+          td {
+            .text-underline {
+              display: flex;
+              color: #4277ff;
+              text-decoration: underline;
+            }
+          
+          }
+        }
+      }
+    }
+  }
+}
